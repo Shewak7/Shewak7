@@ -1,0 +1,112 @@
+/* Common CSS Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-media a {
+    display: inline-block;
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* Apply Jobs and Post a Job Form Styles */
+.apply-jobs-form,
+.post-job-form {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.apply-jobs-form h2,
+.post-job-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.apply-jobs-form label,
+.post-job-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.apply-jobs-form input,
+.apply-jobs-form select,
+.post-job-form input,
+.post-job-form textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.apply-jobs-form button,
+.post-job-form button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+/* Additional Styles Specific to Each Page */
+.apply-jobs-form {
+    /* Add specific styles for the Apply Jobs form if needed */
+}
+
+.post-job-form {
+    /* Add specific styles for the Post a Job form if needed */
+}
